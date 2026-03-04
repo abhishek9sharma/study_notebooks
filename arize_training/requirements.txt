@@ -3,9 +3,10 @@ langchain-openai>=0.1.0
 langgraph>=0.0.64
 openai>=1.0.0
 openinference-instrumentation-langchain
-arize-otel 
-opentelemetry-sdk 
+arize-otel
+opentelemetry-sdk
 opentelemetry-exporter-otlp
+requests>=2.28.0
 # Optional dependencies
 # For Arize tracing support:
 # pip install arize-phoenix>=5.0.0

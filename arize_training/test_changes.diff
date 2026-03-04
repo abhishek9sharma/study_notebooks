@@ -1,0 +1,15 @@
+diff --git a/example.py b/example.py
+index 1234567..abcdefg 100644
+--- a/example.py
++++ b/example.py
+@@ -1,10 +1,15 @@
+ def hello():
+     print("Hello, World!")
+ 
++def goodbye():
++    print("Goodbye!")
++
+ if __name__ == "__main__":
+     hello()
++    goodbye()
+
